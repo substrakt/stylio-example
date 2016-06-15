@@ -1,0 +1,9 @@
+<div class="post">
+  <h1 class="post__title"><%= params[:title] %></h1>
+    <div class="post__content">
+      <% if params[:image] %>
+        <img src="<%= params[:image] %>">
+      <% end %>
+      <p><%= params[:description] %></p>
+    </div>
+</div>

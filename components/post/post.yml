@@ -1,0 +1,23 @@
+post:
+  :title: "Title"
+  :description: "Description"
+  :image: "http://placehold.it/200x100"
+  :related_links:
+    -
+      :name: "First related"
+      :url: "http://example.com"
+    -
+      :name: "First related"
+      :url: "http://example.com"
+
+post_without_image:
+  :title: "Title"
+  :description: "Description"
+  :image:
+  :related_links:
+    -
+      :name: "First related"
+      :url: "http://example.com"
+    -
+      :name: "First related"
+      :url: "http://example.com"
