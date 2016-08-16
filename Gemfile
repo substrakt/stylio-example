@@ -1,1 +1,1 @@
-gem 'stylio'
+gem 'stylio', :path => "~/Documents/substrakt/stylio"

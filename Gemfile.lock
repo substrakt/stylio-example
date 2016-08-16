@@ -1,5 +1,21 @@
+PATH
+  remote: ~/Documents/substrakt/stylio
+  specs:
+    stylio (0.0.4)
+      coffee-script
+      sass
+      sinatra
+      sprockets
+      uglifier
+
 GEM
   specs:
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.10.0)
+    concurrent-ruby (1.0.2)
+    execjs (2.7.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -8,16 +24,18 @@ GEM
       rack (~> 1.5)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
-    stylio (0.0.3)
-      sass
-      sinatra
+    sprockets (3.7.0)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
     tilt (2.0.5)
+    uglifier (3.0.1)
+      execjs (>= 0.3.0, < 3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  stylio
+  stylio!
 
 BUNDLED WITH
    1.12.5
